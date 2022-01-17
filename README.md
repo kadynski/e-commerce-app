@@ -1,12 +1,12 @@
-E-commerce app, build by me from scratch in React.
+<b>E-commerce app, build by me from scratch in React.</b>
 
-Deployed:
+<b>Deployed:</b><br>
 https://nothing-shop.netlify.app/
 
-Used dependencies:
-Create React App
-ReactDOM
-React Router - for multiple pages app
+<b>Used dependencies:</b><br>
+Create React App<br>
+ReactDOM<br>
+React Router - for multiple pages app<br>
 React Use Cart - for operating shopping cart
 
 I was inspired by Green Peace web shop:
