@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (<div className="nav nav-tabs navbar-expand-lg navbar-dark justify-content-center">
@@ -31,10 +33,9 @@ const Navbar = () => {
                  <NavLink to="../pages/Cart" className="nav-link">
                  <button className="btn d-lg-none cart-btn"
                  title="Shopping cart">
-                 <i className="fas fa-shopping-cart"></i></button>
+                 <FontAwesomeIcon icon={faShoppingCart} /></button>
                  </NavLink>
       </div>
     );
   };
-    
   export default Navbar;

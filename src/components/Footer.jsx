@@ -5,7 +5,7 @@ const Footer = ()=>{
     <div>
         <hr/>
         <div className='footer text-center'>
-        2022 &copy; <a href="mailto:kadynski@wp.pl" className="contact-link">Krzysztof Kadynski</a>
+        2022 &copy; <a href="mailto:kadynski@wp.pl" className="contact-link" id="Fname">Krzysztof Kadynski</a>
         </div>
     </div>)
 };
