@@ -14,7 +14,7 @@ const ProductCard =(props)=> {
             <p>{props.price} euro</p>
             <button className="btn-danger btn"
             onClick={()=>addItem(props.item)}>
-            Buy Now!</button>
+            Add to cart</button>
         </div>
     )
 };
